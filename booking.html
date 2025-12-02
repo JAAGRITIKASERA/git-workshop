@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Tickets - Travel Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body  class="train" >
+  <header>
+    <h1>Book Tickets</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="booking.html">Book Tickets</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Plan Your Journey 🚆✈️</h2>
+    <form class="booking-form">
+      <label>Choose Transport:
+        <select>
+          <option>Train</option>
+          <option>Airplane</option>
+        </select>
+      </label>
+        <br>  <br>  <br>
+      <label>From:
+        <input type="text" placeholder="City of Departure" required>
+      </label>
+      <br>  <br>  <br>
+      <label>To:
+        <input type="text" placeholder="Destination City" required>
+      </label>
+        <br>  <br>  <br>
+      <label>Date:
+        <input type="date" required>
+      </label>
+        <br>  <br>  <br>
+      <button type="submit" class="btn">Search Low Budget Tickets</button>
+    </form>
+
+    <div id="results"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

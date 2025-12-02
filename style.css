@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #9cc2e5;
+  color: #333;
+}
+
+header {
+  background: #00695c;
+  color: rgb(249, 247, 247);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(251, 246, 246);
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;s
+}
+
+main {
+  padding: 2rem;
+  text-align : center;
+}
+
+.hero {
+  background: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Amazing-nature-scenery-wallpaper-3840x2160.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #ff7043;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d84315;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #e0f2f1;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.place1, .place2, .place3, .place4 {
+  width: 100%;              /* make them fill grid cell */
+  height: 200px;            /* fixed height so image shows */
+  border-radius: 8px;
+  color: white;              /* text visible on image */
+  padding: 1rem;
+  background-size: cover;    /* scale image to fill box */
+  background-position: center; /* center the image */
+}
+
+/* individual backgrounds */
+.place1 {
+  background-image: url('https://tse3.mm.bing.net/th/id/OIP.dX_MWSU3K2XjaW4On9wVJQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+.place2 {
+  background-image: url('https://tse3.mm.bing.net/th/id/OIP.ZxWS7uZ4s5dbQPcXf5EcEgHaE9?rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+.place3 {
+  background-image: url('https://media.istockphoto.com/id/621897226/photo/goa-beach-and-beautiful-sky-india.jpg?b=1&s=170667a&w=0&k=20&c=M7hyRDrgd731sGVqT0XiF3nWHaFgVVFMIgCF5E4Py3Y=');
+}
+.place4 {
+  background-image: url('https://tse3.mm.bing.net/th/id/OIP.dFeyixLUEq4Z614YqZ0_vQHaE5?rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+
+.bing{
+    color: blue;
+    text-align: center;
+}
